@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Chathura:wght@100;300;400;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Chathura, "Arial Narrow", sans-serif;
+}
+
+:root{
+    --text-color1: #96D8FA;
+    --second-bgcolor: #127ED3;
+}
+
+/*Background picture*/
+
+body{
+    background-image: url(bgpic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+#mainBackground{
+    background: rgba(0, 0, 0, 0.8);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    overflow: scroll;
+}
+
+/*The nav bar*/
+nav{
+    background-color: black;
+    overflow: hidden;
+    opacity: 0.9;
+    position: fixed;
+    width: 100%;
+
+}
+ul{
+    list-style-type: none;
+    text-align: center;
+}
+li{
+    display: inline;
+}
+li > a {
+    color: white;
+    text-decoration: none;
+    display: inline;
+    font-size: 55px;
+    padding: 90px;
+}
+#home{
+    color: var(--text-color1);
+}
+
+#title{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50%;
+}
+
+#introLines{
+    line-height: 1.3;
+}
+
+.release{
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    font-weight: 400;
+}
+.sequel{
+    color: white;
+    font-size: 70px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+section video{
+    width: 70%;
+    height: 70%;    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.story p, .preorder p, .newsletter p{
+    font-weight: 400;
+    color: var(--text-color1);
+    font-size: 65px;
+    text-align: center;
+}
+
+#launch, #special, #collectors{
+    width: 25%;
+    height: 25%;
+}
+
+#regalla{
+    width: 24%;
+    height: 24%;
+}
+
+footer{
+    background-color: var(--second-bgcolor);
+}
+
